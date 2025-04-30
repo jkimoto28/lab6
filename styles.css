@@ -33,3 +33,25 @@ select, button {
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+.day-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+  flex: 1 1 45%;
+}
+
+.data-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.data-grid div {
+  padding: 0.25rem 0;
+}
+
+#errorMessage {
+  color: red;
+}
