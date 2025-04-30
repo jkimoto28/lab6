@@ -6,4 +6,28 @@
   <title>Sunrise & Sunset Dashboard</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+  <body>
+  <header>
+    <h1>Sunrise & Sunset Dashboard</h1>
+  </header>
+
+  <main>
+    <section id="controls">
+      <label for="locationSelect">Choose a location:</label>
+      <select id="locationSelect">
+        <option value="">--Select--</option>
+        <option value="40.7128,-74.0060">New York, USA</option>
+        <option value="51.5074,-0.1278">London, UK</option>
+        <option value="35.6895,139.6917">Tokyo, Japan</option>
+        <option value="48.8566,2.3522">Paris, France</option>
+        <option value="34.0522,-118.2437">Los Angeles, USA</option>
+        <option value="-33.8688,151.2093">Sydney, Australia</option>
+        <option value="55.7558,37.6176">Moscow, Russia</option>
+        <option value="19.4326,-99.1332">Mexico City, Mexico</option>
+        <option value="1.3521,103.8198">Singapore</option>
+        <option value="37.7749,-122.4194">San Francisco, USA</option>
+      </select>
+      <button id="fetchBtn">Get Times</button>
+      <p id="errorMessage"></p>
+    </section>
 </html>
