@@ -11,3 +11,25 @@ header, footer {
   text-align: center;
   padding: 1rem;
 }
+
+main {
+  padding: 1rem;
+}
+
+#controls {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+select, button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
